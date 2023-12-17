@@ -1,0 +1,13 @@
+﻿{
+  "name": "Quick Search",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Quick search, adds context menus and search's highlighted text",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "event.js"
+  },
+  "icons": {
+    "16": "icon16.png"
+  }
+}
